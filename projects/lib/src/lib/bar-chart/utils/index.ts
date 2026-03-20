@@ -3,4 +3,5 @@ export {
   extractBarColors,
   extractBarLegendItems,
   createTickFormatter,
+  calculateBarOffset
 } from './bar-utils';
