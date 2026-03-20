@@ -4,7 +4,7 @@ import {
   input,
   output,
 } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { CurveType } from '@unovis/ts';
 import { AreaChartComponent } from '../area-chart/index';
 import { LegendPosition, axisFormatter, AxisConfig, MarkerConfig, BulletLegendItemInterface } from '../types/index';
@@ -12,7 +12,7 @@ import { LegendPosition, axisFormatter, AxisConfig, MarkerConfig, BulletLegendIt
 @Component({
   selector: 'ngx-line-chart',
   standalone: true,
-  imports: [CommonModule, AreaChartComponent],
+  imports: [AreaChartComponent],
   template: `
     <ngx-area-chart
       [data]="data()"
